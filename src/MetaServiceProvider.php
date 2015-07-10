@@ -18,7 +18,7 @@ class MetaServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app->singleton(MetaServiceProvider::class);
+        $this->app->singleton(MetaManager::class);
     }
 
 }
